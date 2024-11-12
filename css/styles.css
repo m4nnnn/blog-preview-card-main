@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: Figtree;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    width: 25vw;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px  black
+    
+}
+
+.learning{
+    background-color: hsl(47, 88%, 63%) ;
+    margin-right: 70%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+    
+}
+
+.date{
+    justify-content: left;
+    float: inline-start;
+    padding-left: -15px;
+    padding-top: 10px;
+    
+}
+
+
+h3{
+    font-size: medium
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+h1{
+    padding-top: 15px;
+    font-size: larger;
+    font-weight: bold;
+    float: inline-start;
+
+}
+
+.paragraphe{
+    color: hsl(0, 0%, 42%);
+    padding-top: 10px;
+    font-size:medium;
+    float: inline-start;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+span{
+    font-weight: bold;
+    font-size: small;
+    padding-top: 27px;
+    float: inline-start;
+}
+
+.avatar{
+    width: 10%;
+    padding-top: 20px;
+    padding-right: 10px;
+    float: inline-start;;
+}
+
